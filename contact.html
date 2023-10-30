@@ -1,0 +1,501 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="Flexible and affordable personal training in a friendly community atmosphere">
+    <meta name="keywords" content="personal training, south bay, southbay, torrance, affordable training, personal trainer, affordable personal training, cheap personal training" itemtype="https://schema.org/keywords">
+    <meta name="author" content="Colin R Johnson">
+
+    <title>South Bay Trainer- Affordable Personal Training</title>
+
+    <meta property="og:title" content="South Bay Trainer- Affordable Personal Training"/>
+    <meta property="og:description" content="Flexible and affordable personal training in a friendly community atmosphere"/>
+    <meta property="og:image" content="./images/logo.png"/>
+
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet" type="text/css">
+
+    <link rel="icon" sizes="64x64" href="./images/favico.ico">
+
+    <!--------Styles------------->
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- Contact Form CSS files -->
+    <link type="text/css" href="./css/basic.css" rel="stylesheet" media="screen"/>
+
+    <!-- IE6 "fix" for the close png image -->
+    <!--[if lt IE 7]>
+    <link type='text/css' href='css/basic_ie.css' rel='stylesheet' media='screen' />
+    <![endif]-->
+
+    <!---scripts----->
+
+    <script src="./js/jquery-1.10.1.min.js"></script>
+
+    <script src="./js/jquery.simplemodal.js"></script>
+</head>
+<body>
+
+<header id="header">
+
+    <div class="wrapper">
+        <div class="logo">
+            <a href="./index.html"><img src="./images/logo.png"></a>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="./rates.html">rates</a>
+                </li>
+                <li>
+                    <a href="./trainers.html">trainers</a>
+                </li>
+                <li>
+                    <a href="./our-philosophies.html">our philosophies</a>
+                </li>
+                <li>
+                    <a href="./contact.html">contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="call-button">
+            <div class="call-button-desktop">
+                <img src="./images/phone-icon.png"><p>310 341 8559</p>
+            </div>
+            <a class="mobile-call-button" href="tel:3103418559"><img src="./images/phone-icon.png"></a>
+        </div>
+    </div>
+
+</header>
+
+<nav id="mobile-menu">
+    <div class="mobile-menu-icon">
+        <a href="#"><img src="./images/mobile-menu-icon.png"></a>
+    </div>
+    <ul class="mobile-nav">
+        <li>
+            <a href="./index.html">home</a>
+        </li>
+        <li>
+            <a href="./rates.html">rates</a>
+        </li>
+        <li>
+            <a href="./trainers.html">trainers</a>
+        </li>
+        <li>
+            <a href="./our-philosophies.html">our philosophies</a>
+        </li>
+        <li>
+            <a href="./contact.html">contact</a>
+        </li>
+    </ul>
+
+</nav>
+
+<script>
+
+    $(document).ready(function (){
+        $(".mobile-menu-icon").click(function (event) {
+            $(".mobile-nav").slideToggle();
+            event.preventDefault();
+        })
+
+    })
+</script>
+
+<section id="main" class="contact">
+    <div class="wrapper">
+        <div class="social-bar">
+            <ul>
+                <li class="mobile-call-button-small">
+                    <a href="tel:3103418559"><img src="./images/small-phone-icon.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/SouthBayTrainer"><img src="./images/facebook-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://instagram.com/southbaytrainer"><img src="./images/instagram-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://www.yelp.com/biz/south-bay-trainer-torrance-3" target="_blank"><img src="./images/yelp-icon.png"></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/104541691127325485534/about"><img src="./images/google-plus-icon.png"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-left">
+            <h1>Contact Us</h1>
+            <h2>Set up a free one on one consultation to
+                have your questions answered, and to
+                view our facility</h2>
+        </div>
+
+        <div class="main-right">
+            <div class="consultation-form">
+                <h3>Schedule A Free Consultation</h3>
+                <p>Find out the right routine for you</p>
+
+                <form class="sbt-form" action="contact.php" method="post">
+                    <br>
+                    <input id="input" type="text" name="full_name" placeholder="Full Name" required="">
+                    <br>
+                    <input type="tel" name="phone_number" placeholder="Phone Number" required="">
+                    <br>
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <br>
+                    <input type="text" name="comment" placeholder="What is your goal?" required="">
+                    <br>
+                    <input id="submit-button" type="submit" name="form_submit" value="Schedule Now">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="basic-modal-content">
+    <img src="./images/logo.png">
+    <h3>Thank You!</h3>
+    <h2>
+        One of our trainers will contact you shortly to set up your free consultation, and to view our facility.
+    </h2>
+    <p>Don't forget to print this one time coupon and bring it in to your consultation!</p>
+    <a href="./images/South-Bay-Trainer-Coupon.pdf" target="_blank"> <img class="modal-coupon" src="./images/coupon.jpg"></a>
+
+</div>
+<section id="contact-form">
+
+    <div class="wrapper">
+        <div class="contact-form-left">
+
+            <h3>Message</h3>
+
+            <form name="contact-form" method="post" action="contact.php">
+                <input id="input" type="text" name="full_name" placeholder="Full Name" required="">
+                <br>
+                <input type="email" name="email" placeholder="Email" required="">
+                <br>
+                <input type="tel" name="phone_number" placeholder="Phone Number" required="">
+                <br>
+                <textarea cols="50" rows="10" name="question" placeholder="Feel free to ask any question you may have.."></textarea>
+                <br>
+                <input id="submit-button" name="form_submit2" type="submit" value="Send">
+            </form>
+
+        </div>
+                <div class="contact-form-right">
+            <div class="call-right">
+                <h3>Call</h3>
+
+                <div class="call-button-desktop">
+                    <img src="./images/phone-icon.png"><p>310 341 8559</p>
+                </div>
+
+            </div>
+            <div class="call-right">
+                <h3>Business Hours</h3>
+                    <li>
+                        <p>Mon-Thurs:</p><p class="hours-color"> 5am-10pm</p>
+                    </li>
+                    <li>
+                        <p>Fri:</p><p class="hours-color"> 5am-8pm</p>
+                    </li>
+                    <li>
+                        <p>Sat:</p><p class="hours-color"> 8am-6pm</p>
+                    </li>
+                    <li>
+                        <p>Sun:</p><p class="hours-color"> 8am-4pm</p>
+                    </li>
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section id="connect">
+    <div class="wrapper">
+
+        <h2>Connect With Us</h2>
+
+        <div class="connect-block">
+
+                <a href="https://www.facebook.com/SouthBayTrainer" target="_blank">
+                    <div class="connect-box">
+                        <img style="width: 30%;" src="./images/big-fb.png">
+                    </div>
+                </a>
+
+                <p>Be our friend</p>
+
+        </div>
+        <div class="connect-block">
+
+            <a href="http://www.yelp.com/biz/south-bay-trainer-torrance-3" target="_blank">
+                <div class="connect-box">
+                    <img src="./images/big-yelp.png">
+                </div>
+            </a>
+
+            <p>Read our reviews</p>
+
+        </div>
+
+        <div class="connect-block">
+
+                <a href="https://plus.google.com/104541691127325485534/about" target="_blank">
+                    <div class="connect-box">
+
+                         <img class="top" src="./images/big-google.png">
+                    </div>
+                </a>
+
+                <p>Join our circle</p>
+
+        </div>
+
+        <div class="connect-block">
+            <a href="http://instagram.com/southbaytrainer" target="_blank">
+                    <div class="connect-box">
+
+                         <img src="./images/big-instagram.png">
+
+                    </div>
+            </a>
+                 <p>See our photos</p>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="map">
+
+    <div class="wrapper">
+
+        <div id="googleMap">
+
+        </div>
+
+        <div class="map">
+            <h3>Come in and talk to us<br/> about your goals</h3>
+
+            <p>
+                3865 Pacific Coast Hwy<br/>
+                Torrance, CA 90505
+            </p>
+
+            <a href="https://maps.google.com/?saddr=Current+Location&amp;daddr=3865+pacific+coast+highway+torrance+ca+90505" target="_blank">Get Directions &gt;</a>
+
+
+        </div>
+    </div>
+</section>
+
+<section id="map2">
+
+
+
+    <div id="googleMap2">
+
+    </div>
+    <div class="wrapper">
+        <div class="map">
+            <h3>Come in and talk to us<br/> about your goals</h3>
+
+            <p>
+                3865 Pacific Coast Hwy<br/>
+                Torrance, CA 90505
+            </p>
+
+            <a href="https://maps.google.com/?saddr=Current+Location&amp;daddr=3865+pacific+coast+highway+torrance+ca+90505" target="_blank">Get Directions &gt;</a>
+
+
+        </div>
+    </div>
+</section>
+
+<script>
+
+
+    $(document).ready(function (){
+        $(".cta-button").click(function (){
+            //$(this).animate(function(){
+            $('html, body').animate({
+                scrollTop: $(".consultation-form").offset().top}, 500);
+                $('#input').select();
+            //});
+        });
+    });
+
+    $(document).ready(function (){
+        $(".rates-link").click(function (){
+            //$(this).animate(function(){
+            $('html, body').animate({
+                scrollTop: $("#rates").offset().top}, 500);
+        });
+    });
+
+
+    var myCenter=new google.maps.LatLng(33.806139,-118.353686);
+
+    function initialize()
+    {
+        var mapProp = {
+            center:myCenter,
+            zoom:15,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+        var marker=new google.maps.Marker({
+            position:myCenter,
+        });
+
+        marker.setMap(map);
+
+        var infowindow = new google.maps.InfoWindow({
+            content:"South Bay Trainer <br> 3865 Pacific Coast Highway <br> Torrance, CA 90505"
+        });
+
+        infowindow.open(map,marker);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<script>
+
+
+
+    var myCenter=new google.maps.LatLng(33.806139,-118.353686);
+
+    function initialize()
+    {
+        var mapProp = {
+            center:myCenter,
+            zoom:15,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+
+        var map=new google.maps.Map(document.getElementById("googleMap2"),mapProp);
+
+        var marker=new google.maps.Marker({
+            position:myCenter,
+        });
+
+        marker.setMap(map);
+
+        var infowindow = new google.maps.InfoWindow({
+            content:"South Bay Trainer <br> 3865 Pacific Coast Highway <br> Torrance, CA 90505"
+        });
+
+        infowindow.open(map,marker);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+
+<footer id="footer">
+
+    <div class="wrapper">
+
+        <div class="footer-blocks">
+            <img src="./images/logo.png">
+        </div>
+
+        <div class="footer-blocks">
+            <ul>
+                <li>
+                    <h5><i>Pages</i></h5>
+                </li>
+                <li>
+                    <a href="./index.html">home</a>
+                </li>
+                <li>
+                    <a href="./rates.html">rates</a>
+                </li>
+                <li>
+                    <a href="./our-philosophies.html">our philosophies</a>
+                </li>
+                <li>
+                    <a href="./contact.html">contact</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="footer-blocks">
+            <ul>
+                <li>
+                    <h5><i>Contact</i></h5>
+                </li>
+                <li>
+                    <p>Phone:</p><a href="tel:3103418559">310 341 8559</a>
+                </li>
+                <li>
+                    <p>Email:</p><a href="mailto:info@southbaytrainer.com">info@southbaytrainer.com</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footer-blocks" id="hours">
+            <ul>
+                <li style="margin-top: 0">
+                    <h5><i>Business Hours</i></h5>
+                </li>
+                <li>
+                    <p>Mon-Thurs:</p><p class="hours-color"> 5am-10pm</p>
+                </li>
+                <li>
+                    <p>Fri:</p><p class="hours-color"> 5am-8pm</p>
+                </li>
+                <li>
+                    <p>Sat:</p><p class="hours-color"> 8am-6pm</p>
+                </li>
+                <li>
+                    <p>Sun:</p><p class="hours-color"> 8am-4pm</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="social-bar-big">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/SouthBayTrainer" target="_blank"><img src="./images/facebook-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://instagram.com/southbaytrainer" target="_blank"><img src="./images/instagram-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://www.yelp.com/biz/south-bay-trainer-torrance-3" target="_blank"><img src="./images/yelp-icon.png"></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/104541691127325485534/about" target="_blank"><img src="./images/google-plus-icon.png"></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="signature">
+        <div class="wrapper">
+            <p>Designed and Developed by <a href="#" target="_blank">Tariqul Islam</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

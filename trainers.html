@@ -1,0 +1,631 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="Flexible and affordable personal training in a friendly community atmosphere">
+    <meta name="keywords" content="personal training, south bay, southbay, torrance, affordable training, personal trainer, affordable personal training, cheap personal training" itemtype="https://schema.org/keywords">
+    <meta name="author" content="Colin R Johnson">
+
+    <title>South Bay Trainer- Affordable Personal Training</title>
+
+    <meta property="og:title" content="South Bay Trainer- Affordable Personal Training"/>
+    <meta property="og:description" content="Flexible and affordable personal training in a friendly community atmosphere"/>
+    <meta property="og:image" content="./images/logo.png"/>
+
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet" type="text/css">
+
+    <link rel="icon" sizes="64x64" href="./images/favico.ico">
+
+    <!--------Styles------------->
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- Contact Form CSS files -->
+    <link type="text/css" href="./css/basic.css" rel="stylesheet" media="screen"/>
+
+    <!-- IE6 "fix" for the close png image -->
+    <!--[if lt IE 7]>
+    <link type='text/css' href='css/basic_ie.css' rel='stylesheet' media='screen' />
+    <![endif]-->
+
+    <!---scripts----->
+
+    <script src="./js/jquery-1.10.1.min.js"></script>
+
+    <script src="./js/jquery.simplemodal.js"></script>
+</head>
+<body>
+
+    <header id="header">
+
+        <div class="wrapper">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/logo.png"></a>
+            </div>
+    
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="./rates.html">rates</a>
+                    </li>
+                    <li>
+                        <a href="./trainers.html">trainers</a>
+                    </li>
+                    <li>
+                        <a href="./our-philosophies.html">our philosophies</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="call-button">
+                <div class="call-button-desktop">
+                    <img src="./images/phone-icon.png"><p>310 341 8559</p>
+                </div>
+                <a class="mobile-call-button" href="tel:3103418559"><img src="./images/phone-icon.png"></a>
+            </div>
+        </div>
+    
+    </header>
+    
+    <nav id="mobile-menu">
+        <div class="mobile-menu-icon">
+            <a href="#"><img src="./images/mobile-menu-icon.png"></a>
+        </div>
+        <ul class="mobile-nav">
+            <li>
+                <a href="./index.html">home</a>
+            </li>
+            <li>
+                <a href="./rates.html">rates</a>
+            </li>
+            <li>
+                <a href="./trainers.html">trainers</a>
+            </li>
+            <li>
+                <a href="./our-philosophies.html">our philosophies</a>
+            </li>
+            <li>
+                <a href="./contact.html">contact</a>
+            </li>
+        </ul>
+    
+    </nav>
+
+<script>
+
+    $(document).ready(function (){
+        $(".mobile-menu-icon").click(function (event) {
+            $(".mobile-nav").slideToggle();
+            event.preventDefault();
+        })
+
+    })
+</script>
+
+<section id="main" class="trainers">
+    <div class="wrapper">
+        <div class="social-bar">
+            <ul>
+                <li class="mobile-call-button-small">
+                    <a href="tel:3103418559"><img src="./images/small-phone-icon.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/SouthBayTrainer"><img src="./images/facebook-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://instagram.com/southbaytrainer"><img src="./images/instagram-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://www.yelp.com/biz/south-bay-trainer-torrance-3" target="_blank"><img src="./images/yelp-icon.png"></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/104541691127325485534/about"><img src="./images/google-plus-icon.png"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-left">
+            <h1>Our Personal Trainers</h1>
+            <h2>Here for you so you meet your goals</h2>
+        </div>
+
+        <div class="main-right">
+            <div class="consultation-form">
+                <h3>Schedule A Free Consultation</h3>
+                <p>Find out the right routine for you</p>
+
+                <form class="sbt-form" action="trainers.php" method="post">
+                    <br>
+                    <input id="input" type="text" name="full_name" placeholder="Full Name" required="">
+                    <br>
+                    <input type="tel" name="phone_number" placeholder="Phone Number" required="">
+                    <br>
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <br>
+                    <input type="text" name="comment" placeholder="What is your goal?" required="">
+                    <br>
+                    <input id="submit-button" type="submit" name="form_submit" value="Schedule Now">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="basic-modal-content">
+    <img src="./images/logo.png">
+    <h3>Thank You!</h3>
+    <h2>
+        One of our trainers will contact you shortly to set up your free consultation, and to view our facility.
+    </h2>
+    <p>Don't forget to print this one time coupon and bring it in to your consultation!</p>
+    <a href="./images/South-Bay-Trainer-Coupon.pdf" target="_blank"> <img class="modal-coupon" src="./images/coupon.jpg"></a>
+
+</div>
+
+<section class="trainer-profile">
+
+    <div class="wrapper">
+
+        <div class="profile">
+
+            <div class="profile-left">
+                <img src="./images/josh-sola-personal-trainer.jpg">
+            </div>
+            <div class="profile-right">
+                <h3>Josh Sola</h3>
+                <h5>Owner/Lead Trainer</h5>
+                <p>Josh has 3 different National Certifications; NSCA (National Strength &amp; Conditioning Association), NCSF (National Council of Strength &amp; Fitness), NCEP (National College of Exercise Professionals). After having gone through an 80lb. weight loss himself, Josh decided to dedicate himself to helping others achieve their own fitness goals.</p>
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Weight Loss</p></li>
+                    <li><img src="./images/arrow.png"><p>Full Body Toning</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Body Building</p></li>
+                    <li><img src="./images/arrow.png"><p>Rehabilitation</p></li>
+                </ul>
+            </div>
+            <div class="specialties">
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Weight Loss</p></li>
+                    <li><img src="./images/arrow.png"><p>Full Body Toning</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Body Building</p></li>
+                    <li><img src="./images/arrow.png"><p>Rehabilitation</p></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="trainer-profile">
+
+    <div class="wrapper">
+
+        <div class="profile">
+
+            <div class="profile-left">
+                <img src="./images/terrion-personal-trainer.jpg">
+            </div>
+            <div class="profile-right">
+                <h3>Terrion</h3>
+                <h5>Lead Trainer</h5>
+                <p>
+                    Husband, father and athlete in multiple sports for his whole life including football, baseball, basketball, soccer, and track &amp; field. AFI (American Fitness Institute) certified trainer, and professional mixed martial arts fighter. Terrion is a weight loss success story having lost 45 lbs after being sidelined for a year due to knee injury. After falling in love with fitness and mixed martial arts Terrion became passionate about helping others reach their fitness goals and living a healthy life style.
+                </p>
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Endurance Training</p></li>
+                    <li><img src="./images/arrow.png"><p>Boxing/Kickboxing</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Weight Loss</p></li>
+                    <li><img src="./images/arrow.png"><p>Full Body Toning</p></li>
+                </ul>
+            </div>
+            <div class="specialties">
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Weight Loss</p></li>
+                    <li><img src="./images/arrow.png"><p>Full Body Toning</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p style="width:105%;">Endurance Training</p></li>
+                    <li><img src="./images/arrow.png"><p style="width:105%;">Boxing/Kickboxing</p></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="trainer-profile">
+
+    <div class="wrapper">
+
+        <div class="profile">
+
+            <div class="profile-left">
+                <img src="./images/tylor-personal-trainer.jpg">
+            </div>
+            <div class="profile-right">
+                <h3>Tylor</h3>
+                <h5>Trainer</h5>
+                <p>
+                    Tylor's love of fitness began in high school from playing basketball, and then a few years later she fell head over heels for Crossfit.  She now participates competitively in the sport and has been involved in a number of tournaments. After realizing her calling Tylor began pursuing a career in fitness. Because of her experience in Crossfit, she has a unique understanding of full body techniques and high intensity training to help her clients achieve their goals.                </p>
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Full Body Toning</p></li>
+                    <li><img src="./images/arrow.png"><p style="width:150%;">High Intensity Training</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Athletic Conditioning</p></li>
+                    <li><img src="./images/arrow.png"><p>Weight Loss</p></li>
+                </ul>
+            </div>
+            <div class="specialties">
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Full Body Toning</p></li>
+                    <li><img src="./images/arrow.png"><p style="width:150%;">High Intensity Training</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Athletic Conditioning</p></li>
+                    <li><img src="./images/arrow.png"><p>Weight Loss</p></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="trainer-profile">
+
+    <div class="wrapper">
+
+        <div class="profile">
+
+            <div class="profile-left">
+                <img src="./images/keenan.jpg">
+            </div>
+            <div class="profile-right">
+                <h3>Keenan</h3>
+                <h5>Trainer</h5>
+                <p>Keenan's passion for health and fitness first lead him to graduate from CSU Dominguez Hills with a Bachelors Degree in Kinesiology before striving further to complete his NASM certification in personal training.    Keenan's goal is to help others lead a healthy and happy lifestyle, he is able to incorporate his personal experience and background in bodybuilding to help anyone reach their health and fitness goals.  When he isn't training or working out he enjoys playing basketball and learning even more about health and wellness.</p>
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Full Body Toning</p></li>
+                    <li><img src="./images/arrow.png"><p>Body Building</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Weight Loss</p></li>
+                    <li><img src="./images/arrow.png"><p style="width:150%;">Strength &amp; Conditioning</p></li>
+                </ul>
+            </div>
+            <div class="specialties">
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Yoga</p></li>
+                    <li><img src="./images/arrow.png"><p>Meditation</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Weight Loss</p></li>
+                    <li><img src="./images/arrow.png"><p>Aerobics</p></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="trainer-profile">
+    <div class="wrapper">
+
+        <div class="profile">
+
+            <div class="profile-left">
+                <img src="./images/kyle-personal-trainer.jpg">
+            </div>
+            <div class="profile-right">
+                <h3>Kyle</h3>
+                <h5>Trainer</h5>
+                <p>
+                  Kyle graduated from Cal State Northridge with a BA in Kinesiology and is nationally certified through NESTA.
+                  Kyle combines his sports conditioning background with functional strength movements to help clients reach their
+                   strength and fitness goals. In his free time he likes to read, hike, travel and play sports.
+                 </p>
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Athletic Conditioning</p></li>
+                    <li><img src="./images/arrow.png"><p>Endurance Training</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p style="width:150%;">Weight Loss</p></li>
+                    <li><img src="./images/arrow.png"><p>Full Body Toning</p></li>
+                </ul>
+            </div>
+            <div class="specialties">
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Athletic Conditioning</p></li>
+                    <li><img src="./images/arrow.png"><p>Endurance Training</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p style="width:150%;">Weight Loss</p></li>
+                    <li><img src="./images/arrow.png"><p>Full Body Toning</p></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="trainer-profile">
+
+    <div class="wrapper">
+
+        <div class="profile">
+
+            <div class="profile-left">
+                <img src="./images/stefanie-personal-trainer.jpg">
+            </div>
+            <div class="profile-right">
+                <h3>Stephanie</h3>
+                <h5>General Manager</h5>
+                <p>
+                    Stephanie may not be a trainer, but she is one of the most valuable members of the SBT Team. Stephanie is the office manager and book keeper of our gym. If you inquire, call or come in for a consultation, you will be greeted with a friendly smile and any information you need.</p>
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p style="width:150%;">Small Business Management</p></li>
+                    <li><img src="./images/arrow.png"><p>Accounting</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Client Relations</p></li>
+                    <li><img src="./images/arrow.png"><p style="width:150%;">Smiling and being friendly</p></li>
+                </ul>
+            </div>
+            <div class="specialties">
+                <h4>Specialties</h4>
+                <ul>
+                    <li><img src="./images/arrow.png"><p style="width:150%;">Small Business Management</p></li>
+                    <li><img src="./images/arrow.png"><p>Accounting</p></li>
+                </ul>
+                <ul>
+                    <li><img src="./images/arrow.png"><p>Client Relations</p></li>
+                    <li><img src="./images/arrow.png"><p style="width:150%;">Smiling and being friendly</p></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="reviews">
+    <div class="wrapper">
+        <h2>What People Are Saying</h2>
+
+        <div class="reviews-block">
+            <a href="https://web.archive.org/web/20170811094211/http://dailybreeze.readerschoice.la/" target="_blank"><img src="./images/south-bays-best.png"></a>
+        </div>
+        <div class="reviews-block">
+            <a href="https://web.archive.org/web/20170811094211/http://www.yelp.com/biz/south-bay-trainer-torrance-3" target="_blank"><img src="./images/yelp.png"></a>
+        </div>
+       <div class="reviews-block">
+           <a href="https://web.archive.org/web/20170811094211/http://www.easyreadernews.com/93598/south-bay-trainer-best-neighborhood-gym/" target="_blank"><img src="./images/bob.png"></a>
+        </div>
+        <div class="reviews-block">
+            <img src="./images/thumbtack.png">
+        </div>
+    </div>
+</section>
+
+
+<section id="cta">
+    <div class="wrapper">
+
+        <div class="cta-left">
+            <h2>Schedule A Free Consultation</h2>
+            <h3>Find out the right routine for you</h3>
+        </div>
+        <div class="cta-right">
+            <button class="cta-button">
+                Schedule Now
+            </button>
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+
+
+    $(document).ready(function (){
+        $(".cta-button").click(function (){
+            //$(this).animate(function(){
+            $('html, body').animate({
+                scrollTop: $(".consultation-form").offset().top}, 500);
+                $('#input').select();
+            //});
+        });
+    });
+
+    $(document).ready(function (){
+        $(".rates-link").click(function (){
+            //$(this).animate(function(){
+            $('html, body').animate({
+                scrollTop: $("#rates").offset().top}, 500);
+        });
+    });
+
+
+    var myCenter=new google.maps.LatLng(33.806139,-118.353686);
+
+    function initialize()
+    {
+        var mapProp = {
+            center:myCenter,
+            zoom:15,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+        var marker=new google.maps.Marker({
+            position:myCenter,
+        });
+
+        marker.setMap(map);
+
+        var infowindow = new google.maps.InfoWindow({
+            content:"South Bay Trainer <br> 3865 Pacific Coast Highway <br> Torrance, CA 90505"
+        });
+
+        infowindow.open(map,marker);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<script>
+
+
+
+    var myCenter=new google.maps.LatLng(33.806139,-118.353686);
+
+    function initialize()
+    {
+        var mapProp = {
+            center:myCenter,
+            zoom:15,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+
+        var map=new google.maps.Map(document.getElementById("googleMap2"),mapProp);
+
+        var marker=new google.maps.Marker({
+            position:myCenter,
+        });
+
+        marker.setMap(map);
+
+        var infowindow = new google.maps.InfoWindow({
+            content:"South Bay Trainer <br> 3865 Pacific Coast Highway <br> Torrance, CA 90505"
+        });
+
+        infowindow.open(map,marker);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+
+<footer id="footer">
+
+    <div class="wrapper">
+
+        <div class="footer-blocks">
+            <img src="./images/logo.png">
+        </div>
+
+        <div class="footer-blocks">
+            <ul>
+                <li>
+                    <h5><i>Pages</i></h5>
+                </li>
+                <li>
+                    <a href="./index.html">home</a>
+                </li>
+                <li>
+                    <a href="./rates.html">rates</a>
+                </li>
+                <li>
+                    <a href="./our-philosophies.html">our philosophies</a>
+                </li>
+                <li>
+                    <a href="./contact.html">contact</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="footer-blocks">
+            <ul>
+                <li>
+                    <h5><i>Contact</i></h5>
+                </li>
+                <li>
+                    <p>Phone:</p><a href="tel:3103418559">310 341 8559</a>
+                </li>
+                <li>
+                    <p>Email:</p><a href="mailto:info@southbaytrainer.com">info@southbaytrainer.com</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footer-blocks" id="hours">
+            <ul>
+                <li style="margin-top: 0">
+                    <h5><i>Business Hours</i></h5>
+                </li>
+                <li>
+                    <p>Mon-Thurs:</p><p class="hours-color"> 5am-10pm</p>
+                </li>
+                <li>
+                    <p>Fri:</p><p class="hours-color"> 5am-8pm</p>
+                </li>
+                <li>
+                    <p>Sat:</p><p class="hours-color"> 8am-6pm</p>
+                </li>
+                <li>
+                    <p>Sun:</p><p class="hours-color"> 8am-4pm</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="social-bar-big">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/SouthBayTrainer" target="_blank"><img src="./images/facebook-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://instagram.com/southbaytrainer" target="_blank"><img src="./images/instagram-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://www.yelp.com/biz/south-bay-trainer-torrance-3" target="_blank"><img src="./images/yelp-icon.png"></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/104541691127325485534/about" target="_blank"><img src="./images/google-plus-icon.png"></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="signature">
+        <div class="wrapper">
+            <p>Designed and Developed by <a href="#" target="_blank">Tariqul Islam</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

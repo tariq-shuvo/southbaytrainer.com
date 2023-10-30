@@ -1,0 +1,566 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="Flexible and affordable personal training in a friendly community atmosphere">
+    <meta name="keywords" content="personal training, south bay, southbay, torrance, affordable training, personal trainer, affordable personal training, cheap personal training" itemtype="https://schema.org/keywords">
+    <meta name="author" content="Colin R Johnson">
+
+    <title>South Bay Trainer- Affordable Personal Training</title>
+
+    <meta property="og:title" content="South Bay Trainer- Affordable Personal Training"/>
+    <meta property="og:description" content="Flexible and affordable personal training in a friendly community atmosphere"/>
+    <meta property="og:image" content="./images/logo.png"/>
+
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet" type="text/css">
+
+    <link rel="icon" sizes="64x64" href="./images/favico.ico">
+
+    <!--------Styles------------->
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- Contact Form CSS files -->
+    <link type="text/css" href="./css/basic.css" rel="stylesheet" media="screen"/>
+
+    <!-- IE6 "fix" for the close png image -->
+    <!--[if lt IE 7]>
+    <link type='text/css' href='css/basic_ie.css' rel='stylesheet' media='screen' />
+    <![endif]-->
+
+    <!---scripts----->
+
+    <script src="./js/jquery-1.10.1.min.js"></script>
+
+    <script src="./js/jquery.simplemodal.js"></script>
+</head>
+<body>
+
+    <header id="header">
+
+        <div class="wrapper">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/logo.png"></a>
+            </div>
+    
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="./rates.html">rates</a>
+                    </li>
+                    <li>
+                        <a href="./trainers.html">trainers</a>
+                    </li>
+                    <li>
+                        <a href="./our-philosophies.html">our philosophies</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="call-button">
+                <div class="call-button-desktop">
+                    <img src="./images/phone-icon.png"><p>310 341 8559</p>
+                </div>
+                <a class="mobile-call-button" href="tel:3103418559"><img src="./images/phone-icon.png"></a>
+            </div>
+        </div>
+    
+    </header>
+    
+    <nav id="mobile-menu">
+        <div class="mobile-menu-icon">
+            <a href="#"><img src="./images/mobile-menu-icon.png"></a>
+        </div>
+        <ul class="mobile-nav">
+            <li>
+                <a href="./index.html">home</a>
+            </li>
+            <li>
+                <a href="./rates.html">rates</a>
+            </li>
+            <li>
+                <a href="./trainers.html">trainers</a>
+            </li>
+            <li>
+                <a href="./our-philosophies.html">our philosophies</a>
+            </li>
+            <li>
+                <a href="./contact.html">contact</a>
+            </li>
+        </ul>
+    
+    </nav>
+
+<script>
+
+    $(document).ready(function (){
+        $(".mobile-menu-icon").click(function (event) {
+            $(".mobile-nav").slideToggle();
+            event.preventDefault();
+        })
+
+    })
+</script>
+
+<section id="main" class="philosophies">
+    <div class="wrapper">
+        <div class="social-bar">
+            <ul>
+                <li class="mobile-call-button-small">
+                    <a href="tel:3103418559"><img src="./images/small-phone-icon.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/SouthBayTrainer"><img src="./images/facebook-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://instagram.com/southbaytrainer"><img src="./images/instagram-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://www.yelp.com/biz/south-bay-trainer-torrance-3" target="_blank"><img src="./images/yelp-icon.png"></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/104541691127325485534/about"><img src="./images/google-plus-icon.png"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-left">
+            <h1>Affordable Personal Training In A Friendly Community Atmosphere, No Scheduling Necessary</h1>
+            <h2>With Sessions Starting As Low As $15</h2>
+        </div>
+
+        <div class="main-right">
+            <div class="consultation-form">
+                <h3>Schedule A Free Consultation</h3>
+                <p>Find out the right routine for you</p>
+
+                <form class="sbt-form" action="our-philosophies.php" method="post">
+                    <br>
+                    <input id="input" type="text" name="full_name" placeholder="Full Name" required="">
+                    <br>
+                    <input type="tel" name="phone_number" placeholder="Phone Number" required="">
+                    <br>
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <br>
+                    <input type="text" name="comment" placeholder="What is your goal?" required="">
+                    <br>
+                    <input id="submit-button" type="submit" name="form_submit" value="Schedule Now">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="basic-modal-content">
+    <img src="./images/logo.png">
+    <h3>Thank You!</h3>
+    <h2>
+        One of our trainers will contact you shortly to set up your free consultation, and to view our facility.
+    </h2>
+    <p>Don't forget to print this one time coupon and bring it in to your consultation!</p>
+    <a href="./images/South-Bay-Trainer-Coupon.pdf" target="_blank"> <img class="modal-coupon" src="./images/coupon.jpg"></a>
+
+</div>
+<section id="mission-statement">
+
+    <div class="wrapper">
+        <ul>
+            <li>
+                <p>
+                    At South Bay Trainer we provide <span>quality</span>, <span>affordable</span> personal training.
+                </p>
+            </li>
+            <li>
+                <p>
+                    We pride ourselves on a <span>comfortable</span>, <span>friendly community</span> atmosphere.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Everyone deserves to be both <span>happy</span> and <span>healthy</span> and that is what we strive to<br/>
+                    achieve through <span>honesty</span>, <span>integrity</span>, and <span>passion</span>.
+                </p>
+            </li>
+        </ul>
+
+        <img src="./images/south-bay-trainer-gym.jpg">
+
+    </div>
+
+    <div class="mission-statement-full-image"></div>
+
+</section>
+
+<section class="philosophies-box">
+    <div class="wrapper">
+        <div class="philosophies-left">
+            <h3>Our Training:</h3>
+            <img src="./images/personal-training-icon.png">
+        </div>
+        <div class="philosophies-right">
+            <ul>
+                <li>
+                    <p>We are nationally certified trainers that are able to handle clients with a broad spectrum of needs.</p>
+                </li>
+                <li>
+                    <p>We show up on time and are always available to answer our client’s questions and meet their needs; From exercise and diet to emotional support and positive influence we follow through. </p>
+                </li>
+                <li>
+                    <p>We are not drill instructors and we do not hassle our clients.</p>
+                </li>
+                <li>
+                    <p>We make it as easy as possible for our clients to have a convenient, enjoyable workout experience. </p>
+                </li>
+                <li>
+                    <p>We base our training solely on our clients’ goals and abilities.</p>
+                </li>
+                <li>
+                    <p>We accept that each individual needs training at their own pace.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="philosophies-box">
+    <div class="wrapper">
+       <div class="philosophies-left">
+           <h3>Our Facility:</h3>
+           <img src="./images/personal-training-facility-icon.png">
+       </div>
+       <div class="philosophies-right">
+           <ul>
+               <li>
+                   <p>We have developed an atmosphere that accommodates even the most gym shy client. </p>
+               </li>
+               <li>
+                   <p>Our facility is non-competitive and non-judgmental.</p>
+               </li>
+               <li>
+                   <p>We pride ourselves on making our clients as comfortable as possible. </p>
+               </li>
+               <li>
+                   <p>We have all of the equipment and training necessary to train athletes and bodybuilders.</p>
+               </li>
+               <li>
+                   <p>We have the patience and skill to train clients from 9 years old to 94 years old.</p>
+               </li>
+               <li>
+                   <p>We provide a luxury gym for a discount price.</p>
+               </li>
+           </ul>
+       </div>
+    </div>
+</section>
+
+<section class="philosophies-box">
+    <div class="wrapper">
+        <div class="philosophies-left">
+            <h3>Our Clients:</h3>
+            <img src="./images/clients-icon.png">
+        </div>
+        <div class="philosophies-right">
+            <ul>
+                <li>
+                    <p>Upon entering South Bay Trainer, people immediately recognize the vast diversity of our clients. </p>
+                </li>
+                <li>
+                    <p>In the same hour you might see students, mothers, seniors, teens, fitness buffs, heavy individuals, families and friends.</p>
+                </li>
+                <li>
+                    <p>Our patrons love the fun, friendly familiarity that evolves from their workouts.</p>
+                </li>
+                <li>
+                    <p>New friends are made, networking takes place and successes are shared.</p>
+                </li>
+                <li>
+                    <p>Our clients don’t just provide a presence in our gym, our clients are our gym.</p>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section id="reviews">
+    <div class="wrapper">
+        <h2>What People Are Saying</h2>
+
+        <div class="reviews-block">
+            <a href="https://web.archive.org/web/20170811094211/http://dailybreeze.readerschoice.la/" target="_blank"><img src="./images/south-bays-best.png"></a>
+        </div>
+        <div class="reviews-block">
+            <a href="https://web.archive.org/web/20170811094211/http://www.yelp.com/biz/south-bay-trainer-torrance-3" target="_blank"><img src="./images/yelp.png"></a>
+        </div>
+       <div class="reviews-block">
+           <a href="https://web.archive.org/web/20170811094211/http://www.easyreadernews.com/93598/south-bay-trainer-best-neighborhood-gym/" target="_blank"><img src="./images/bob.png"></a>
+        </div>
+        <div class="reviews-block">
+            <img src="./images/thumbtack.png">
+        </div>
+    </div>
+</section>
+
+
+<section id="our-story">
+
+    <div class="wrapper">
+        <h2>Our Story</h2>
+
+        <iframe src="http://www.youtube.com/embed/UciKqcPYwNA" frameborder="0" allowfullscreen></iframe>
+
+        <iframe src="http://www.youtube.com/embed/mMYzwIPCS88" frameborder="0" allowfullscreen></iframe>
+
+        <span>
+            <a href="http://southbaytrainer.com/our-philosophies.php">Find Out More</a>
+        </span>
+
+
+    </div>
+</section>
+
+
+<section id="cta">
+    <div class="wrapper">
+
+        <div class="cta-left">
+            <h2>Schedule A Free Consultation</h2>
+            <h3>Find out the right routine for you</h3>
+        </div>
+        <div class="cta-right">
+            <button class="cta-button">
+                Schedule Now
+            </button>
+        </div>
+    </div>
+</section>
+
+<section id="map">
+
+    <div class="wrapper">
+
+        <div id="googleMap">
+
+        </div>
+
+        <div class="map">
+            <h3>Come in and talk to us<br/> about your goals</h3>
+
+            <p>
+                3865 Pacific Coast Hwy<br/>
+                Torrance, CA 90505
+            </p>
+
+            <a href="https://maps.google.com/?saddr=Current+Location&amp;daddr=3865+pacific+coast+highway+torrance+ca+90505" target="_blank">Get Directions &gt;</a>
+
+
+        </div>
+    </div>
+</section>
+
+<section id="map2">
+
+
+
+    <div id="googleMap2">
+
+    </div>
+    <div class="wrapper">
+        <div class="map">
+            <h3>Come in and talk to us<br/> about your goals</h3>
+
+            <p>
+                3865 Pacific Coast Hwy<br/>
+                Torrance, CA 90505
+            </p>
+
+            <a href="https://maps.google.com/?saddr=Current+Location&amp;daddr=3865+pacific+coast+highway+torrance+ca+90505" target="_blank">Get Directions &gt;</a>
+
+
+        </div>
+    </div>
+</section>
+
+<script>
+
+
+    $(document).ready(function (){
+        $(".cta-button").click(function (){
+            //$(this).animate(function(){
+            $('html, body').animate({
+                scrollTop: $(".consultation-form").offset().top}, 500);
+                $('#input').select();
+            //});
+        });
+    });
+
+    $(document).ready(function (){
+        $(".rates-link").click(function (){
+            //$(this).animate(function(){
+            $('html, body').animate({
+                scrollTop: $("#rates").offset().top}, 500);
+        });
+    });
+
+
+    var myCenter=new google.maps.LatLng(33.806139,-118.353686);
+
+    function initialize()
+    {
+        var mapProp = {
+            center:myCenter,
+            zoom:15,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+        var marker=new google.maps.Marker({
+            position:myCenter,
+        });
+
+        marker.setMap(map);
+
+        var infowindow = new google.maps.InfoWindow({
+            content:"South Bay Trainer <br> 3865 Pacific Coast Highway <br> Torrance, CA 90505"
+        });
+
+        infowindow.open(map,marker);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<script>
+
+
+
+    var myCenter=new google.maps.LatLng(33.806139,-118.353686);
+
+    function initialize()
+    {
+        var mapProp = {
+            center:myCenter,
+            zoom:15,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+
+        var map=new google.maps.Map(document.getElementById("googleMap2"),mapProp);
+
+        var marker=new google.maps.Marker({
+            position:myCenter,
+        });
+
+        marker.setMap(map);
+
+        var infowindow = new google.maps.InfoWindow({
+            content:"South Bay Trainer <br> 3865 Pacific Coast Highway <br> Torrance, CA 90505"
+        });
+
+        infowindow.open(map,marker);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+
+<footer id="footer">
+
+    <div class="wrapper">
+
+        <div class="footer-blocks">
+            <img src="./images/logo.png">
+        </div>
+
+        <div class="footer-blocks">
+            <ul>
+                <li>
+                    <h5><i>Pages</i></h5>
+                </li>
+                <li>
+                    <a href="./index.html">home</a>
+                </li>
+                <li>
+                    <a href="./rates.html">rates</a>
+                </li>
+                <li>
+                    <a href="./our-philosophies.html">our philosophies</a>
+                </li>
+                <li>
+                    <a href="./contact.html">contact</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="footer-blocks">
+            <ul>
+                <li>
+                    <h5><i>Contact</i></h5>
+                </li>
+                <li>
+                    <p>Phone:</p><a href="tel:3103418559">310 341 8559</a>
+                </li>
+                <li>
+                    <p>Email:</p><a href="mailto:info@southbaytrainer.com">info@southbaytrainer.com</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footer-blocks" id="hours">
+            <ul>
+                <li style="margin-top: 0">
+                    <h5><i>Business Hours</i></h5>
+                </li>
+                <li>
+                    <p>Mon-Thurs:</p><p class="hours-color"> 5am-10pm</p>
+                </li>
+                <li>
+                    <p>Fri:</p><p class="hours-color"> 5am-8pm</p>
+                </li>
+                <li>
+                    <p>Sat:</p><p class="hours-color"> 8am-6pm</p>
+                </li>
+                <li>
+                    <p>Sun:</p><p class="hours-color"> 8am-4pm</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="social-bar-big">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/SouthBayTrainer" target="_blank"><img src="./images/facebook-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://instagram.com/southbaytrainer" target="_blank"><img src="./images/instagram-icon.png"></a>
+                </li>
+                <li>
+                    <a href="http://www.yelp.com/biz/south-bay-trainer-torrance-3" target="_blank"><img src="./images/yelp-icon.png"></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/104541691127325485534/about" target="_blank"><img src="./images/google-plus-icon.png"></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="signature">
+        <div class="wrapper">
+            <p>Designed and Developed by <a href="#" target="_blank">Tariqul Islam</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
